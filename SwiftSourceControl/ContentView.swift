@@ -54,7 +54,7 @@ struct ContentView: View {
           Rectangle()
             Text("B")
             Button("Subscribe now!!"){
-                
+            // kanske fel
             
             }
             
