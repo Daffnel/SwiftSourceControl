@@ -7,12 +7,15 @@
 
 import SwiftUI
 
+
 struct HomeView: View {
     
-    @State private var  title: String = ""
+    @State private var  title: String = "refgdfgfdgdgdfg"
     
     var body: some View {
         ZStack {
+        Text("HI")
+            
             Text("Screen two")
             
             VStack{
