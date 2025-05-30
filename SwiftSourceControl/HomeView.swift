@@ -25,7 +25,10 @@ struct HomeView: View {
                 
                 Text("Screen three")
             }
-        }
+        }.onAppear{
+            
+            //
+            }
 
     }
 }
