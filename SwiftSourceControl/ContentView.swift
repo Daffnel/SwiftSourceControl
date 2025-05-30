@@ -45,6 +45,11 @@ struct ContentView: View {
             
           Rectangle()
             
+            Button("Subscribe now"){
+                
+                //
+            }
+            
             Button("Tryck på mig"){
                 
             }
