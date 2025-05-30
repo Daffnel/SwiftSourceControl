@@ -15,6 +15,14 @@ struct HomeView: View {
             Text("Screen two")
             
             Text("Screen two")
+            
+            VStack{
+                Text("Screen two")
+                
+                Text("Screen two")
+                
+                Text("Screen two")
+            }
         }
 
     }
