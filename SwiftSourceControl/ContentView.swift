@@ -55,7 +55,7 @@ struct ContentView: View {
             
             Button("Subscribe now"){
                 
-                //
+            
             }
             
             Button("Tryck på mig"){
