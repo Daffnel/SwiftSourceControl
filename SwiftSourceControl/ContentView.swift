@@ -43,9 +43,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Git and Github")
             
-            Button("Subscribe"){
-                
-            }
+          
             
             Button("Tryck på mig"){
                 
