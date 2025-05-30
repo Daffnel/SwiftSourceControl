@@ -19,7 +19,7 @@ struct ContentView: View {
             Button("Tryck på mig"){
                 
             }
-            .background(Color.red)
+            .background(Color.blue)
         }
         .padding()
         .padding()
