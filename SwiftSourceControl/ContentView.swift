@@ -52,7 +52,7 @@ struct ContentView: View {
             Text("Git and Github")
             
           Rectangle()
-            Text("Bara text")
+            Text("B")
             Button("Subscribe now!!"){
                 
             
