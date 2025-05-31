@@ -54,7 +54,7 @@ struct ContentView: View {
                                 .font(.largeTitle)
                                 .imageScale(.large)
                                 .foregroundStyle(.tint)
-                            Text("Some new Title!")
+                            Text("Ändrar den text till REBASE")
                             
                           Rectangle()
                             Text("B")
