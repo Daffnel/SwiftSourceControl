@@ -47,14 +47,14 @@ struct ContentView: View {
         VStack{
             ScrollView{
                 VStack{
-                    ForEach(0..<20) {_ in
+                    ForEach(0..<5) {_ in
                         
                         VStack {
-                            Image(systemName: "globe.fill")
+                            Image(systemName: "bolt")
                                 .font(.largeTitle)
                                 .imageScale(.large)
                                 .foregroundStyle(.tint)
-                            Text("Some new Title!")
+                            Text("Ändrar den text till REBASE")
                             
                           Rectangle()
                             Text("B")
