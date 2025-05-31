@@ -50,20 +50,18 @@ struct ContentView: View {
                     ForEach(0..<5) {_ in
                         
                         VStack {
-                            Image(systemName: "bolt")
+                            Image(systemName: "globe")
                                 .font(.largeTitle)
                                 .imageScale(.large)
                                 .foregroundStyle(.tint)
                             Text("Ändrar den text till REBASE")
-                            
-                          Rectangle()
-                            Text("B")
+                        
                             Button("Klic me!!"){
                             // kanske fel
                             
                             }
                             
-                            Button("Tryck på mig"){
+                            Button("Subscribe"){
                                 
                             }
                             .background(Color.green)
