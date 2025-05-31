@@ -55,9 +55,7 @@ struct ContentView: View {
                                 .imageScale(.large)
                                 .foregroundStyle(.tint)
                             Text("Ändrar den text till REBASE")
-                            
-                          Rectangle()
-                            Text("B")
+                        
                             Button("Klic me!!"){
                             // kanske fel
                             
