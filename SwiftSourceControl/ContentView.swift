@@ -45,15 +45,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "house.fill")
+            Image(systemName: "globe.fill")
                 .font(.largeTitle)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Git and Github")
+            Text("Some new Title!")
             
           Rectangle()
             Text("B")
-            Button("Subscribe now!!"){
+            Button("Klic me!!"){
             // kanske fel
             
             }
