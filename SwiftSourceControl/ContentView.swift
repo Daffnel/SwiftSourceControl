@@ -38,6 +38,8 @@
  Rebase = Moving one branch on top anoter branch
  Cherry picking = Duplictae copying one commit from one branch to another
  Pull Request (PR) = Request to merge branch
+ PR Merge = Merge all commit
+ PP Squash and merge = squash all commits to one commit then merge ONE commit
  
  
  */
