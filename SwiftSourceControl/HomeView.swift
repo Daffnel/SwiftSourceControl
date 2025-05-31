@@ -16,7 +16,7 @@ struct HomeView: View {
         ZStack {
         Text("HI")
             
-            Text("Hello nick")
+            Text("Hello world")
             
             VStack{
                 Text("Hello")
