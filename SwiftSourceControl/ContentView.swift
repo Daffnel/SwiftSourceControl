@@ -54,7 +54,7 @@ struct ContentView: View {
                     ForEach(0..<5) {_ in
                         
                         VStack {
-                            Image(systemName: "globe")
+                            Image(systemName: "heart.fill")
                                 .font(.largeTitle)
                                 .imageScale(.large)
                                 .foregroundStyle(.tint)
