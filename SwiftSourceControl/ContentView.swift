@@ -34,6 +34,9 @@
  
  Push = Send local commits to repro
  Pull = Fecth remote commits to local repro
+ Merge = Joining two diffrent branch
+ Rebase = Moving one branch on top anoter branch
+ Cherry picking = Duplictae copying one commit from one branch to aother
  
  
  */
