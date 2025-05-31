@@ -49,7 +49,26 @@ struct ContentView: View {
                 VStack{
                     ForEach(0..<20) {_ in
                         
-                        Text("Yoyoy")
+                        VStack {
+                            Image(systemName: "globe.fill")
+                                .font(.largeTitle)
+                                .imageScale(.large)
+                                .foregroundStyle(.tint)
+                            Text("Some new Title!")
+                            
+                          Rectangle()
+                            Text("B")
+                            Button("Klic me!!"){
+                            // kanske fel
+                            
+                            }
+                            
+                            Button("Tryck på mig"){
+                                
+                            }
+                            .background(Color.green)
+                        }
+
                         
                     }
                 }
