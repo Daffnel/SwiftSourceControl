@@ -60,7 +60,7 @@ struct ContentView: View {
                                 .foregroundStyle(.tint)
                             Text("Ändrar den text till CHERRY")
                         
-                            Button("Klic me!!"){
+                            Button("Subscribe"){
                             // kanske fel
                             
                             }
