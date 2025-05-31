@@ -19,7 +19,7 @@ struct HomeView: View {
             Text("Hello world")
             
             VStack{
-                Text("Screen two")
+                Text("Hello")
                 
             }
         }.onAppear{
