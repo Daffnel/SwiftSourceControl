@@ -61,7 +61,7 @@ struct ContentView: View {
                             
                             }
                             
-                            Button("Tryck på mig"){
+                            Button("Subscribe"){
                                 
                             }
                             .background(Color.green)
