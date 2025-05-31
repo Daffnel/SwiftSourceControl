@@ -57,7 +57,7 @@ struct ContentView: View {
                                 .font(.largeTitle)
                                 .imageScale(.large)
                                 .foregroundStyle(.tint)
-                            Text("Ändrar den text till REBASE")
+                            Text("Ändrar den text till CHERRY")
                         
                             Button("Klic me!!"){
                             // kanske fel
