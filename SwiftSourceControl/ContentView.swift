@@ -54,18 +54,18 @@ struct ContentView: View {
                     ForEach(0..<5) {_ in
                         
                         VStack {
-                            Image(systemName: "globe")
+                            Image(systemName: "heart.fill")
                                 .font(.largeTitle)
                                 .imageScale(.large)
                                 .foregroundStyle(.tint)
                             Text("Ändrar den text till CHERRY")
                         
-                            Button("Klic me!!"){
+                            Button("Subscribe"){
                             // kanske fel
                             
                             }
                             
-                            Button("Subscribe"){
+                            Button("Ändrar denna text"){
                                 
                             }
                             .background(Color.green)
