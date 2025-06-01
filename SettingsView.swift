@@ -12,7 +12,7 @@ struct SettingsView: View {
     @State private var doSomthing: Bool = false
     
     var body: some View {
-        Text("Settings")
+        Text("hej hopp")
     }
 }
 
