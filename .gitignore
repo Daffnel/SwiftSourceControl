@@ -1,0 +1,84 @@
+# === macOS systemfiler ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+
+# === Xcode och SwiftUI ===
+DerivedData/
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+*.xcassets/*.xccheckout
+*.swiftpm
+.build/
+*.docc-build
+
+# === Swift Package Manager ===
+Packages/
+Package.pins
+Package.resolved
+.build/
+
+# === User-specifika inställningar ===
+*.xcuserdata/
+*.xcscheme
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+
+# === Firebase / Firestore / Auth ===
+# (ingen känslig info ska begås!)
+GoogleService-Info.plist
+FirebaseCrashlytics/*.dSYM
+*.dSYM.zip
+*.dSYM
+
+# === CocoaPods (om du använder det) ===
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# === Carthage (om du använder det) ===
+Carthage/
+Carthage/Build/
+
+# === SPM artifacts ===
+.build/
+.swiftpm/xcode/package.xcworkspace/
+
+# === Miljö- och hemliga filer ===
+.env
+.env.*
+Secrets.swift
+Config.swift
+*.key
+*.pem
+*.p12
+
+# === Tester och rapporter ===
+*.gcno
+*.profraw
+*.profdata
+coverage/
+test-output/
+
+# === Logg- och cachefiler ===
+*.log
+*.tmp
+*.bak
+*.orig
+
+# === Git-filer ===
+*.orig
+*.patch
+
+# === CI / GitHub Actions ===
+.github/workflows/*.log
