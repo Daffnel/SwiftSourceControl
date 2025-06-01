@@ -41,6 +41,11 @@
  PR Merge = Merge all commit
  PP Squash and merge = squash all commits to one commit then merge ONE commit
  
+ Protecting branches
+ CODEOWNERS
+ GitIngnore
+ Readme
+ Realeases, Tags, Versioning
  
  */
 
